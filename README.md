@@ -9,17 +9,18 @@ gcc group7.c -O2 -Wall -lm -o escape
 ```
 
 **Windows (MinGW)**
-
 ```bash
 gcc group7.c -O2 -Wall -o escape.exe
 ```
 
 ## Run
 
-Put the following files next to the executable:
+Use the sample inputs from `examples/`:
 
-* `fishpool.bmp` (input image)
-* `pools.txt` (pool centers & sizes)
+* `examples/fishpool.bmp` (input image)
+* `examples/pools.txt` (pool centers & sizes)
+
+> To run, copy these files from `examples/` and place them next to the executable.
 
 Outputs may include:
 
@@ -37,6 +38,3 @@ escape.exe  # Windows
 ## Docs
 
 See the project report: [docs/project-report.pdf](docs/project-report.pdf)
-
-
-

@@ -38,5 +38,5 @@ escape.exe  # Windows
 ## Docs
 
 - [Project report (PDF)](docs/project-report.pdf)  
-- [Assignment instructions (DOCX, 2022)](docs/escape-project-assignment-2022.docx)
+- [Assignment instructions (PDF, 2022)](docs/escape-project-assignment-2022.PDF)
 

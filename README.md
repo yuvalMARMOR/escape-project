@@ -38,3 +38,4 @@ escape.exe  # Windows
 ## Docs
 
 See the project report: [docs/project-report.pdf](docs/project-report.pdf)
+[Assignment instructions (DOCX, 2022)](docs/escape-project-assignment-2022.docx)

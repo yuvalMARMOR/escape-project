@@ -1,0 +1,5 @@
+Image size (13x15)
+Pool Center	Size
+===========	====
+(9,3)	21
+(4,12)	23

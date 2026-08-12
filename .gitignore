@@ -1,55 +1,31 @@
-# Prerequisites
-*.d
-
-# Object files
+# Build products
+build/
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
+# Runtime outputs created outside examples/expected
+/pools.txt
+/best-route.txt
+/fishpool-copy.bmp
+/fishpool-fishing.bmp
+
+# Debug and editor files
 *.dSYM/
-*.su
-*.idb
 *.pdb
+*.ilk
+*.su
+.vscode/
+.idea/
+*~
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Jupyter and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
 
-# debug information files
-*.dwo
+# Operating-system metadata
+.DS_Store
+Thumbs.db

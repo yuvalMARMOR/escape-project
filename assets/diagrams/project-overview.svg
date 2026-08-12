@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Escape Project processing pipeline</title>
+  <desc id="desc">A pipeline from a BMP map through pool detection and route analysis to reproducible outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a33"/><stop offset="1" stop-color="#123a67"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#67b7ff"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="470" rx="28" fill="url(#bg)"/>
+  <circle cx="1075" cy="84" r="145" fill="#1e66aa" opacity="0.18"/>
+  <circle cx="1110" cy="400" r="205" fill="#19a7a0" opacity="0.10"/>
+  <text x="70" y="82" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="44" font-weight="700">Escape Project</text>
+  <text x="70" y="120" fill="#b9d9f7" font-family="Segoe UI,Arial,sans-serif" font-size="22">Image processing, constrained route search, and numerical analysis in C</text>
+
+  <g filter="url(#shadow)" font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(65 180)">
+      <rect width="190" height="170" rx="18" fill="#fff"/>
+      <rect x="18" y="22" width="78" height="78" rx="8" fill="#fff" stroke="#cbd5e1"/>
+      <path d="M27 29h25v28h29v17H60v18H27z" fill="#9bbeef"/>
+      <path d="M73 72h18v20H73z" fill="#9bbeef"/>
+      <text x="18" y="125" fill="#0f2947" font-size="22" font-weight="700">BMP map</text>
+      <text x="18" y="151" fill="#52677d" font-size="16">24-bit pixel input</text>
+    </g>
+    <g transform="translate(320 180)">
+      <rect width="225" height="170" rx="18" fill="#fff"/>
+      <circle cx="48" cy="54" r="24" fill="#9bbeef"/>
+      <circle cx="105" cy="45" r="17" fill="#9bbeef"/>
+      <circle cx="164" cy="67" r="29" fill="#9bbeef"/>
+      <path d="M35 100h150" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+      <text x="18" y="125" fill="#0f2947" font-size="22" font-weight="700">Pool detection</text>
+      <text x="18" y="151" fill="#52677d" font-size="16">Components + geometry</text>
+    </g>
+    <g transform="translate(610 180)">
+      <rect width="230" height="170" rx="18" fill="#fff"/>
+      <path d="M36 82L92 42L144 100L194 46" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="36" cy="82" r="10" fill="#dc2626"/>
+      <circle cx="92" cy="42" r="10" fill="#facc15"/>
+      <circle cx="144" cy="100" r="10" fill="#facc15"/>
+      <circle cx="194" cy="46" r="10" fill="#16a34a"/>
+      <text x="18" y="125" fill="#0f2947" font-size="22" font-weight="700">Route search</text>
+      <text x="18" y="151" fill="#52677d" font-size="16">Time + fuel state</text>
+    </g>
+    <g transform="translate(905 180)">
+      <rect width="230" height="170" rx="18" fill="#fff"/>
+      <path d="M25 96C58 82 72 45 103 61S151 94 202 34" fill="none" stroke="#2563eb" stroke-width="6"/>
+      <path d="M25 104h180" stroke="#cbd5e1" stroke-width="2"/>
+      <text x="18" y="125" fill="#0f2947" font-size="22" font-weight="700">Verified outputs</text>
+      <text x="18" y="151" fill="#52677d" font-size="16">BMP, route, cost, tour</text>
+    </g>
+  </g>
+  <g stroke="#67b7ff" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M264 265h43"/><path d="M554 265h43"/><path d="M849 265h43"/>
+  </g>
+  <text x="70" y="418" fill="#d7eaff" font-family="Segoe UI,Arial,sans-serif" font-size="18">One canonical input  •  deterministic CLI  •  checked-in reproducible results</text>
+</svg>
